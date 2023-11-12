@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "rest-api": "node mockserver/init.js",
+    "mocks": "node mockserver/init.js"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/axios": "~5.13.6",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/tailwindcss": "^6.9.4",
+    "core-js": "^3.19.3",
+    "nuxt": "^3.8.0",
+    "ofetch": "^1.0.1",
+    "vue": "^3.3.7",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.55.0",
+    "@typescript-eslint/parser": "5.55.0",
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-typescript": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "@vue/eslint-config-typescript": "11.0.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "7.6.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "lint-staged": "^13.0.3",
+    "sass": "^1.58.0",
+    "simple-git-hooks": "^2.8.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run pre-commit"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --cache --fix"
+    ]
+  }
+}
