@@ -14,9 +14,8 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/axios": "~5.13.6",
-    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/tailwindcss": "^6.9.4",
-    "@vite-pwa/nuxt": "^0.2.1",
+    "@vite-pwa/nuxt": "0.4.0",
     "core-js": "^3.19.3",
     "nuxt": "^3.8.0",
     "ofetch": "^1.0.1",
