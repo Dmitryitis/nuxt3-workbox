@@ -42,7 +42,7 @@ npm run preview
 
 ## Api start
 Для полного запуска приложения требуется запустить mockserver.
-Mockserver лежит в отдельном репозитории [nuxt-2workbox](https://github.com/Dmitryitis/nuxt2-workbox).
+Mockserver лежит в отдельном репозитории [nuxt2-workbox](https://github.com/Dmitryitis/nuxt2-workbox).
 ```bash
 # start server api `http://localhost:3100`
 $ npm run mocks
